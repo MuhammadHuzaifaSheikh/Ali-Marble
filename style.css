@@ -12,7 +12,7 @@ a{
     text-decoration: none;
 }
 a:hover{
-    text-decoration: none;
+    text-decoration: none; !important;
 
 }
 
@@ -27,7 +27,7 @@ p{
 .header{
     width: 100%;
     height: 100vh;
-    background-image: linear-gradient(rgba(0,168,255,0.3) ,rgba(0,168,255,0.3)) ,url("https://www.burchcom.com/wp-content/uploads/2019/01/images1997-5c2f99436aa28-1024x683.jpg");
+    background-image: linear-gradient(rgba(0,168,255,0.3) ,rgba(0,168,255,0.3)) ,url("images/bg.jpg");
     background-repeat: no-repeat;
     background-size: 100% 100%;
     clip-path: polygon(100% 0%,100% 77% ,50% 100%,0 75% ,0 0);
@@ -62,9 +62,14 @@ p{
 
 .nav-item a:hover{
     color: #ffd38d; !important;
-    text-decoration: underline;
 }
-
+.nav-link{
+    padding: 5px 0;
+}
+.nav-link:hover{
+    border-bottom: 2px solid #fff;
+    text-decoration: none;
+}
 
 .header-section{
     width: 100%;
@@ -83,6 +88,7 @@ p{
     transform: translate(-50%,-50%);
     -ms-transform: translate(-50%,-50%);
     -webkit-transform: translate(-50%,-50%);
+
 }
 
 .header-buttons a{
@@ -157,6 +163,28 @@ p{
 .card-text{
     margin-top: 50px;
 }
+.product{
+    width: 100%;
+    height: 100vh;
+    padding: 50px;
+    position: relative;
+}
+
+.product:before{
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: linear-gradient(160deg, #16c9f6 55%,#fff 0%);
+    z-index: -1;
+}
+.box img:hover{
+    transform: translateY(-20px);
+    box-shadow: 0 0 20px 0 rgba(0,0,0,0.3);
+
+}
 
 
 /*card end*/
@@ -170,8 +198,19 @@ p{
 width: 100%;
     height: auto;
     padding: 70px 0 20px 0;
-    background: #00abff;
+    background: rgba(0,0,0,0.3);
     position: relative;
+    margin-top:7% ;
+}
+
+.footersection h3{
+    text-transform: uppercase;
+    color: #fff;
+    margin-bottom:25px ;
+    font-size: 1rem!important;
+    font-weight: 600;
+    text-shadow: 0 2px 5px rgba( 0,0,0,0.4);
+
 }
 #myBtn{
     position: fixed;
@@ -188,6 +227,9 @@ width: 100%;
 }
 #myBtn:hover{
     background: grey;
+}
+#contact li{
+    list-style: none;
 }
 
 /*footer end*/
@@ -213,9 +255,11 @@ width: 100%;
     .footersection{
         height: auto;
         padding: 70px 0 20px 0;
-        background: #00abff;
+        background:  rgba(0,0,0,0.3);
+        margin-top: 100%;
+    ;
         position: relative;
-        top:80px
+        /*top:30%*/
     }
     .headings{
         margin-top:64px ;

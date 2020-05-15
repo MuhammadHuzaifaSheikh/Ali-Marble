@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="56d58c0f-5d63-46cb-a46c-12e9ef455d35" name="Default Changelist" comment="" />
+    <list default="true" id="56d58c0f-5d63-46cb-a46c-12e9ef455d35" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/images/web-slide-img-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/style-contact.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,13 +16,17 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
         <option value="CSS File" />
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1brEDIwvJREnUSF3KObBcCr71CF" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -26,7 +36,13 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/images" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\projects\Ali-Marble\images" />
+    </key>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -68,7 +84,18 @@
       <workItem from="1589452258164" duration="143000" />
       <workItem from="1589453451572" duration="532000" />
       <workItem from="1589454024607" duration="1881000" />
-      <workItem from="1589455931831" duration="997000" />
+      <workItem from="1589455931831" duration="1905000" />
+      <workItem from="1589457864173" duration="1797000" />
+      <workItem from="1589459685722" duration="1205000" />
+      <workItem from="1589461763604" duration="1808000" />
+      <workItem from="1589464432012" duration="803000" />
+      <workItem from="1589468854653" duration="436000" />
+      <workItem from="1589535813489" duration="509000" />
+      <workItem from="1589543506387" duration="1409000" />
+      <workItem from="1589544945547" duration="1782000" />
+      <workItem from="1589546761278" duration="920000" />
+      <workItem from="1589548569880" duration="245000" />
+      <workItem from="1589568919959" duration="1145000" />
     </task>
     <servers />
   </component>
